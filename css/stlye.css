@@ -1,0 +1,28 @@
+#sideab{
+    padding: 4pt;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 16px;
+}
+#sidebc{
+    padding: 4pt;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 16px;
+}
+#sideca{
+    padding: 4pt;
+    margin: 2px;
+    font-family: monospace;
+    font-size: 16px;
+}
+button{
+    background-color: #1c4c7c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
