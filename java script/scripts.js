@@ -10,6 +10,13 @@ if(ab===bc && bc===ca && ab===ca){
     IMG.setAttribute("alt", "The Pulpit Rock");
     document.body.appendChild(IMG);
     Text= "triangle is equilateral";
+}else if  (ab+bc<=ca || ab+ca<=bc || ca+bc<=ab){
+    IMG.setAttribute("src", "images/no.jpeg");
+    IMG.setAttribute("width", "304");
+    IMG.setAttribute("height", "228");
+    IMG.setAttribute("alt", "no traingle");
+    document.body.appendChild(IMG);
+    Text="a triangle cannot be formed";
 }else if(ab===bc || bc===ca || ab===ca){
     IMG.setAttribute("src", "images/images.png");
     IMG.setAttribute("width", "304");
@@ -24,13 +31,6 @@ if(ab===bc && bc===ca && ab===ca){
     IMG.setAttribute("alt", "The Pulpit Rock");
     document.body.appendChild(IMG);
     Text="scalene triangle";
-}else if  (ab+bc<=ca || ab+ca<=bc || ca+bc<=ab){
-    IMG.setAttribute("src", "images/no.jpeg");
-    IMG.setAttribute("width", "304");
-    IMG.setAttribute("height", "228");
-    IMG.setAttribute("alt", "no traingle");
-    document.body.appendChild(IMG);
-    Text="a triangle cannot be formed";
 }
 document.getElementById("demo").innerHTML = Text;
 }
