@@ -23,5 +23,7 @@
 #demo{
     position: relative;
     float: left;
-    color: beige;
+    color:black;
+    width: 120pt;
+    height: 50px;
 }
