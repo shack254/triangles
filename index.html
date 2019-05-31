@@ -14,33 +14,25 @@
     <img src="images/leaves_triangle_geometric.jpg" class="fluid-flow index-1" alt="">
     <h1>triangle tracker</h1>
     <p>enter the values of your triangle below and find out what triangle type it is</p>
-    <form  method="post" class="form">
-        <div class="card">
-            <div class="form-group row">
-                <div class="col-2">
-                     <label for="sideab">enter value</label>
-                </div>
-                <div class="col-10">
-                     <input type="number" name="sideab" id="sideab" placeholder="frist side">
-                </div>
+    <form  method="post" class="needs-validation" novalidate>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">side A</span>
             </div>
-            <div class="form-group row">
-                <div class="col-2">
-                     <label for="sidebc">entervalue</label>
-                </div>
-                <div class="col-10">
-                    <input type="number" name="sidebc"  id="sidebc"placeholder="second side" >
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-2">
-                    <label for="sideca">entervalue</label>
-                </div>
-                <div class="col-10">
-                    <input type="number" name="sideca"  id="sideca" placeholder="thrid side">
-                </div>
-            </div>
+            <input type="number" name="sideab" id="sideab" placeholder="frist side">
         </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">side B</span>
+            </div>
+            <input type="number" name="sidebc"  id="sidebc"placeholder="second side" >
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">side C</span>
+            </div>
+            <input type="number" name="sideca"  id="sideca" placeholder="thrid side">
+         </div>
     </form>
     <button onclick="triangle()"  class="btn btn-dark" style="margin-top: 26px" >submit</button><br>
     <p id="demo"></p>
