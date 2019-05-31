@@ -6,17 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>triangle tracker</title>
     <link rel="stylesheet" href="css/stlye.css" type="text/css">
+    <link rel="shortcut icon" href="images/giphy_s.gif">
 </head>
 <body>
     <div class="container">
     <script src="java script/scripts.js"></script>
+    <img src="images/leaves_triangle_geometric.jpg" class="fluid-flow index-1" alt="">
     <h1>triangle tracker</h1>
     <p>enter the values of your triangle below and find out what triangle type it is</p>
     <form  method="post" class="form">
         <div class="card">
-        <input type="number" id="sideab" placeholder="frist side"><br>
-        <input type="number" id="sidebc"placeholder="second side" ><br>
-        <input type="number" id="sideca" placeholder="thrid side">
+            <div class="form-group row">
+                <div class="col-2">
+                     <label for="sideab">enter value</label>
+                </div>
+                <div class="col-10">
+                     <input type="number" name="sideab" id="sideab" placeholder="frist side">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-2">
+                     <label for="sidebc">entervalue</label>
+                </div>
+                <div class="col-10">
+                    <input type="number" name="sidebc"  id="sidebc"placeholder="second side" >
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-2">
+                    <label for="sideca">entervalue</label>
+                </div>
+                <div class="col-10">
+                    <input type="number" name="sideca"  id="sideca" placeholder="thrid side">
+                </div>
+            </div>
         </div>
     </form>
     <button onclick="triangle()"  class="btn btn-dark" style="margin-top: 26px" >submit</button><br>

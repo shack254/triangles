@@ -1,1 +1,12 @@
 @import url(bootstrap.css);
+.index-1{
+    position: absolute;
+    z-index: -1;
+}
+.center{
+    align-items: center;
+}
+.container{
+    color: beige
+}
+                
