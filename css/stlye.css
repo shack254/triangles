@@ -1,5 +1,5 @@
 @import url(bootstrap.css);
-@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans|Orbitron|Raleway|Roboto|Ultra&display=swap');
 .index-1{
     position: absolute;
     z-index: -1;
@@ -8,6 +8,11 @@
     align-items: center;
 }
 .container{
-    color: beige;
-    font-family: 'Nanum Gothic';
+    color: #1878f0;
+    font-family: 'Roboto';
 }
+.trasparency img{
+    opacity: 0.1;
+    filter: alpha(color); /* For IE8 and earlier */
+    padding: 0px !important;
+  }

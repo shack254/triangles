@@ -12,9 +12,9 @@
     <div class="container">
     <script src="java script/scripts.js"></script>
     <img src="images/leaves_triangle_geometric.jpg" class="fluid-flow index-1" alt="">
-    <h1>triangle tracker</h1>
+    <h1 class="r">triangle tracker</h1>
     <p>enter the values of your triangle below and find out what triangle type it is</p>
-    <form  method="post" class="needs-validation" novalidate>
+    <form  method="post" class="needs-validation center" novalidate>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">side A</span>
@@ -34,10 +34,14 @@
             <input type="number" name="sideca"  id="sideca" placeholder="thrid side">
          </div>
     </form>
-    <button onclick="triangle()"  class="btn btn-dark" style="margin-top: 26px" >submit</button><br>
-    <p id="demo"></p>
+    <button onclick="triangle()"  class="btn btn-warning btn-outline-primary" style="margin-top: 26px" >submit</button><br>
+    <div class="alert" role="alert">
+        <h4 class="alert-heading">answer</h4>
+        <p id="demo" class="trasparency"></p>
+    </div>
     <figure>
         <footer>disclamer this application doesnt actualy find the location of lost triangles</footer>
     </figure>
+    </div>
 </body>
 </html>
